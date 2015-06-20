@@ -5,13 +5,55 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.DatePicker;
 
 import com.android.n1amr.criminalintent.R;
 
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
 public class DatePickerFragment extends DialogFragment {
+
+    public static final String EXTRA_DATE =
+            "com.bignerdranch.android.criminalintent.date";
+
+    private Date mDate;
+
+    public static DatePickerFragment newInstance(Date date) {
+        DatePickerFragment datePickerFragment = new DatePickerFragment();
+
+        Bundle args = new Bundle();
+        args.putSerializable(EXTRA_DATE, date);
+        datePickerFragment.setArguments(args);
+
+        return datePickerFragment;
+    }
+
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
+        mDate = (Date) getArguments().getSerializable(EXTRA_DATE);
+
+        // Create a Calendar to get the year, month, and day
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(mDate);
+        final int year = calendar.get(Calendar.YEAR);
+        final int month = calendar.get(Calendar.MONTH);
+        final int day = calendar.get(Calendar.DAY_OF_MONTH);
+
         View view = getActivity().getLayoutInflater().inflate(R.layout.dialog_date, null);
+        DatePicker datePicker = (DatePicker) view.findViewById(R.id.dialog_date_datePicker);
+        datePicker.init(year, month, day, new DatePicker.OnDateChangedListener() {
+            @Override
+            public void onDateChanged(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                // Translate year, month, day into a Date object using a calendar
+                mDate = new GregorianCalendar(year, month, day).getTime();
+                // Update argument to preserve selected value on rotation
+                getArguments().putSerializable(EXTRA_DATE, mDate);
+            }
+        });
+
+
         return new AlertDialog.Builder(getActivity()).setTitle(R.string.date_picker_title).setPositiveButton(android.R.string.ok, null).setNegativeButton(android.R.string.cancel,
                 null).setView(view).create();
     }
