@@ -14,6 +14,7 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 
 import com.android.n1amr.criminalintent.R;
+import com.android.n1amr.criminalintent.controllers.details.dialog.DatePickerFragment;
 import com.android.n1amr.criminalintent.model.Crime;
 import com.android.n1amr.criminalintent.model.CrimeLab;
 
@@ -22,6 +23,7 @@ import java.util.UUID;
 
 public class CrimeFragment extends Fragment {
     public static final String EXTRA_CRIME_ID = "";
+    private static final String DIALOG_DATE = "date";
 
     private Crime mCrime;
     private EditText mTitleField;
@@ -74,7 +76,15 @@ public class CrimeFragment extends Fragment {
 
         mDateButton = (Button) view.findViewById(R.id.crime_date);
         mDateButton.setText(DateFormat.format("EEEE, MMM d, yyyy", mCrime.getDate()).toString());
-        mDateButton.setEnabled(false);
+        mDateButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DatePickerFragment datePickerFragment = new DatePickerFragment();
+                datePickerFragment.show(getActivity().getFragmentManager(), DIALOG_DATE);
+            }
+        });
+        ;
+
 
         mSolvedCheckBox = (CheckBox) view.findViewById(R.id.crime_solved);
         mSolvedCheckBox.setChecked(mCrime.isSolved());
