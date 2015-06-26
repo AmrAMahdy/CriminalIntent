@@ -4,10 +4,12 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.NavUtils;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.text.format.DateFormat;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -53,6 +55,9 @@ public class CrimeFragment extends Fragment {
         UUID crimeId = (UUID) getArguments().getSerializable(CrimeFragment.EXTRA_CRIME_ID);
         mCrime = CrimeLab.get(getActivity()).getCrime(crimeId);
 
+        setHasOptionsMenu(true);
+        if (NavUtils.getParentActivityName(getActivity()) != null)
+            getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -121,6 +126,18 @@ public class CrimeFragment extends Fragment {
                 mCrime.setDate(date);
                 updateDate();
             }
+        }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                if (NavUtils.getParentActivityName(getActivity()) != null)
+                    NavUtils.navigateUpFromSameTask(getActivity());
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 }
