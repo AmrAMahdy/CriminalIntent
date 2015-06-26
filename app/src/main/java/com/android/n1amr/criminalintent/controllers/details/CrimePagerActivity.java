@@ -7,7 +7,6 @@ import android.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v13.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBarActivity;
 
 import com.android.n1amr.criminalintent.R;
 import com.android.n1amr.criminalintent.model.Crime;
@@ -16,7 +15,7 @@ import com.android.n1amr.criminalintent.model.CrimeLab;
 import java.util.ArrayList;
 import java.util.UUID;
 
-public class CrimePagerActivity extends ActionBarActivity {
+public class CrimePagerActivity extends Activity {
     private ViewPager mViewPager;
     private ArrayList<Crime> mCrimes;
 

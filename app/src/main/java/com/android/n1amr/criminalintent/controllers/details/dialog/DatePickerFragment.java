@@ -19,7 +19,7 @@ import java.util.GregorianCalendar;
 public class DatePickerFragment extends DialogFragment {
 
     public static final String EXTRA_DATE =
-            "com.bignerdranch.android.criminalintent.date";
+            "com.example.n1amr.criminalintent.date";
 
     private Date mDate;
 
