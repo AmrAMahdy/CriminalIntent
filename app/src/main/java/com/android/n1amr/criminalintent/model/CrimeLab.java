@@ -14,12 +14,12 @@ public class CrimeLab {
     private CrimeLab(Context appContext) {
         mAppContext = appContext;
         mCrimes = new ArrayList<Crime>();
-        for (int i = 0; i < 5; i++) {
-            Crime crime = new Crime();
-            crime.setTitle("Crime #" + i);
-            crime.setSolved(i % 2 == 0);
-            addCrime(crime);
-        }
+//        for (int i = 0; i < 5; i++) {
+//            Crime crime = new Crime();
+//            crime.setTitle("Crime #" + i);
+//            crime.setSolved(i % 2 == 0);
+//            addCrime(crime);
+//        }
     }
 
     public static CrimeLab get(Context c) {
