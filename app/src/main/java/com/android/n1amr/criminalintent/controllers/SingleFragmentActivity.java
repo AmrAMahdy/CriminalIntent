@@ -1,6 +1,7 @@
 package com.android.n1amr.criminalintent.controllers;
 
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.os.Bundle;
@@ -10,6 +11,7 @@ import com.android.n1amr.criminalintent.R;
 
 public abstract class SingleFragmentActivity extends ActionBarActivity {
     protected abstract Fragment createFragment();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
