@@ -1,7 +1,9 @@
 package com.android.n1amr.criminalintent.controllers.list;
 
 import android.app.Fragment;
+import android.view.Menu;
 
+import com.android.n1amr.criminalintent.R;
 import com.android.n1amr.criminalintent.controllers.SingleFragmentActivity;
 
 /**
@@ -13,4 +15,6 @@ public class CrimeListActivity extends SingleFragmentActivity {
     protected Fragment createFragment() {
         return new CrimeListFragment();
     }
+
+
 }
