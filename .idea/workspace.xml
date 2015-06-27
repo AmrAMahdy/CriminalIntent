@@ -37,10 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fragment_crime_list.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fragment_crime_list.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crime_list.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44615385">
+            <state vertical-scroll-proportion="-5.0">
               <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               <folding>
                 <element signature="n#LinearLayout#0;n#FrameLayout#0;n#!!top" expanded="true" />
@@ -72,15 +72,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrimeListFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CrimeListFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.43502825">
+              <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
               <folding>
                 <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
+                <element signature="e#2744#2900#0" expanded="true" />
                 <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="true" />
                 <element signature="method#onResume#0;class#CrimeListFragment#0" expanded="true" />
+                <element signature="method#onCreateOptionsMenu#0;class#CrimeListFragment#0" expanded="true" />
+                <element signature="method#openNewCrimeFragment#0;class#CrimeListFragment#0" expanded="true" />
+                <element signature="method#onOptionsItemSelected#0;class#CrimeListFragment#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1471,8 +1475,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu-v11/fragment_crime_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/model/CrimeLab.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_crime_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java" />
       </list>
     </option>
   </component>
@@ -1977,7 +1981,7 @@
     <frame x="55" y="-8" width="1319" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="914" y="510" width="326" height="242" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="914" y="510" width="326" height="242" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2212,18 +2216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
-          <folding>
-            <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onResume#0;class#CrimeListFragment#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crime.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6896552">
@@ -2239,7 +2231,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crime_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44615385">
+        <state vertical-scroll-proportion="-5.0">
           <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
             <element signature="n#LinearLayout#0;n#FrameLayout#0;n#!!top" expanded="true" />
@@ -2253,6 +2245,22 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43502825">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+          <folding>
+            <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="e#2744#2900#0" expanded="true" />
+            <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#onResume#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#onCreateOptionsMenu#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#openNewCrimeFragment#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#onOptionsItemSelected#0;class#CrimeListFragment#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

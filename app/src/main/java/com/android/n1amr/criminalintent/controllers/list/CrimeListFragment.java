@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -65,7 +66,16 @@ public class CrimeListFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        //Empty View
         mListView.setEmptyView(view.findViewById(R.id.emptyView));
+        Button newCrimeButton = (Button) view.findViewById(R.id.emptyView_add_Button);
+        newCrimeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openNewCrimeFragment();
+            }
+        });
 
         if (mSubtitleVisible) {
             getActivity().getActionBar().setSubtitle(R.string.subtitle);
@@ -123,16 +133,20 @@ public class CrimeListFragment extends Fragment {
             showSubtitle.setTitle(R.string.hide_subtitle);
     }
 
+    private void openNewCrimeFragment() {
+        Crime crime = new Crime();
+        CrimeLab.get(getActivity()).addCrime(crime);
+
+        Intent intent = new Intent(getActivity(), CrimePagerActivity.class);
+        intent.putExtra(CrimeFragment.EXTRA_CRIME_ID, crime.getId());
+        startActivityForResult(intent, 0);
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_item_new_crime:
-                Crime crime = new Crime();
-                CrimeLab.get(getActivity()).addCrime(crime);
-
-                Intent intent = new Intent(getActivity(), CrimePagerActivity.class);
-                intent.putExtra(CrimeFragment.EXTRA_CRIME_ID, crime.getId());
-                startActivityForResult(intent, 0);
+                openNewCrimeFragment();
                 return true;
             case R.id.menu_item_show_subtitle:
                 if (getActivity().getActionBar().getSubtitle() == null) {
