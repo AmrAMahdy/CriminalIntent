@@ -1,6 +1,6 @@
 package com.android.n1amr.criminalintent.controllers.list;
 
-import android.app.ListFragment;
+import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,6 +10,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.ListView;
@@ -23,11 +24,12 @@ import com.android.n1amr.criminalintent.model.CrimeLab;
 
 import java.util.ArrayList;
 
-public class CrimeListFragment extends ListFragment {
+public class CrimeListFragment extends Fragment {
     private static final String TAG = "CrimeListFragment";
 
     private ArrayList<Crime> mCrimes;
     private boolean mSubtitleVisible;
+    private ListView mListView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -36,39 +38,40 @@ public class CrimeListFragment extends ListFragment {
 
         setRetainInstance(true);
         mSubtitleVisible = false;
-        
+
         setHasOptionsMenu(true);
 
         mCrimes = CrimeLab.get(getActivity()).getCrimes();
-//        ArrayAdapter<Crime> adapter = new ArrayAdapter<Crime>(getActivity(), android.R.layout.simple_list_item_1, mCrimes);
-
-        CrimeAdapter adapter = new CrimeAdapter(mCrimes);
-        setListAdapter(adapter);
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = super.onCreateView(inflater, container, savedInstanceState);
-        ;
+        View view = inflater.inflate(R.layout.fragment_crime_list, container, false);
+
+        mListView = (ListView) view.findViewById(R.id.listView);
+
+        //        ArrayAdapter<Crime> adapter = new ArrayAdapter<Crime>(getActivity(), android.R.layout.simple_list_item_1, mCrimes);
+        CrimeAdapter adapter = new CrimeAdapter(mCrimes);
+        mListView.setAdapter(adapter);
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Crime crime = ((CrimeAdapter) mListView.getAdapter()).getItem(position);
+                Log.d(TAG, crime.getTitle() + " was pressed");
+
+                Intent intent = new Intent(getActivity(), CrimePagerActivity.class);
+                intent.putExtra(CrimeFragment.EXTRA_CRIME_ID, crime.getId());
+
+                startActivity(intent);
+            }
+        });
+        mListView.setEmptyView(view.findViewById(R.id.emptyView));
 
         if (mSubtitleVisible) {
             getActivity().getActionBar().setSubtitle(R.string.subtitle);
         }
 
         return view;
-    }
-
-    @Override
-    public void onListItemClick(ListView l, View v, int position, long id) {
-        super.onListItemClick(l, v, position, id);
-        Crime crime = ((CrimeAdapter) getListAdapter()).getItem(position);
-        Log.d(TAG, crime.getTitle() + " was pressed");
-
-        Intent intent = new Intent(getActivity(), CrimePagerActivity.class);
-        intent.putExtra(CrimeFragment.EXTRA_CRIME_ID, crime.getId());
-
-
-        startActivity(intent);
     }
 
     private class CrimeAdapter extends ArrayAdapter<Crime> {
@@ -107,8 +110,7 @@ public class CrimeListFragment extends ListFragment {
     public void onResume() {
         super.onResume();
 
-        ((CrimeAdapter) getListAdapter()).notifyDataSetChanged();
-
+        ((CrimeAdapter) mListView.getAdapter()).notifyDataSetChanged();
     }
 
     @Override
