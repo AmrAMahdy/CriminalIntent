@@ -5,13 +5,11 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 
 import com.android.n1amr.criminalintent.R;
 
 public abstract class SingleFragmentActivity extends Activity {
     protected abstract Fragment createFragment();
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

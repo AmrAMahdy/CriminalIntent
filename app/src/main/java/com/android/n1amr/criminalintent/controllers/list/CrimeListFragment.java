@@ -70,7 +70,7 @@ public class CrimeListFragment extends Fragment {
             }
         });
 
-        //Old style
+        //Old style context menu
         mListView.setOnCreateContextMenuListener(new View.OnCreateContextMenuListener() {
             @Override
             public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
@@ -83,9 +83,9 @@ public class CrimeListFragment extends Fragment {
         mListView.setMultiChoiceModeListener(new AbsListView.MultiChoiceModeListener() {
             @Override
             public void onItemCheckedStateChanged(ActionMode mode, int position, long id, boolean checked) {
-                //((Crime) (mListView.getAdapter().getItem(position))).setSolved(checked);
-                CrimeAdapter crimeAdapter = (CrimeAdapter) mListView.getAdapter();
-                crimeAdapter.notifyDataSetChanged();
+//                ((Crime) (mListView.getAdapter().getItem(position))).setSolved(checked);
+//                CrimeAdapter crimeAdapter = (CrimeAdapter) mListView.getAdapter();
+//                crimeAdapter.notifyDataSetChanged();
             }
 
             @Override
@@ -112,6 +112,7 @@ public class CrimeListFragment extends Fragment {
                                 crimeLab.deleteCrime(crimeAdapter.getItem(i));
                             }
                         }
+                        crimeLab.saveCrimes();
                         mode.finish();
                         crimeAdapter.notifyDataSetChanged();
                         return true;
@@ -132,7 +133,10 @@ public class CrimeListFragment extends Fragment {
         newCrimeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openNewCrimeFragment();
+                CrimeLab.get(getActivity()).createSample();
+                ((CrimeAdapter) mListView.getAdapter()).notifyDataSetChanged();
+
+                //openNewCrimeActivity();
             }
         });
 
@@ -193,7 +197,7 @@ public class CrimeListFragment extends Fragment {
             showSubtitle.setTitle(R.string.hide_subtitle);
     }
 
-    private void openNewCrimeFragment() {
+    private void openNewCrimeActivity() {
         Crime crime = new Crime();
         CrimeLab.get(getActivity()).addCrime(crime);
 
@@ -206,7 +210,7 @@ public class CrimeListFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_item_new_crime:
-                openNewCrimeFragment();
+                openNewCrimeActivity();
                 return true;
             case R.id.menu_item_show_subtitle:
                 if (getActivity().getActionBar().getSubtitle() == null) {

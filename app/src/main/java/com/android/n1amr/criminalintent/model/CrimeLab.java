@@ -30,12 +30,6 @@ public class CrimeLab {
             Log.e(TAG, "Error loading crimes: ", e);
         }
 
-//        for (int i = 0; i < 5; i++) {
-//            Crime crime = new Crime();
-//            crime.setTitle("Crime #" + i);
-//            crime.setSolved(i % 2 == 0);
-//            addCrime(crime);
-//        }
     }
 
     public static CrimeLab get(Context c) {
@@ -73,5 +67,15 @@ public class CrimeLab {
             Log.e(TAG, "Error saving crimes: ", e);
             return false;
         }
+    }
+
+    public static void createSample() {
+        for (int i = 0; i < 15; i++) {
+            Crime crime = new Crime();
+            crime.setTitle("Crime #" + i);
+            crime.setSolved(i % 2 == 0);
+            sCrimeLab.addCrime(crime);
+        }
+        sCrimeLab.saveCrimes();
     }
 }
