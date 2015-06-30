@@ -40,24 +40,24 @@
     <leaf>
       <file leaf-file-name="fragment_crime_list.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crime_list.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8275862">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
-                <element signature="n#Button#0;n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="true" />
-                <element signature="n#ListView#0;n#LinearLayout#0;n#!!top" expanded="true" />
+                <element signature="n#Button#0;n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+                <element signature="n#ListView#0;n#LinearLayout#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="CriminalIntentJSONSerializer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CriminalIntentJSONSerializer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/CriminalIntentJSONSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8629442">
+            <state vertical-scroll-proportion="0.0">
               <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
               <folding />
             </state>
@@ -81,13 +81,11 @@
       </file>
       <file leaf-file-name="fragment_crime.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crime.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
               <folding>
+                <element signature="n#LinearLayout#0;n#!!top" expanded="false" />
                 <element signature="n#TextView#0;n#LinearLayout#0;n#!!top" expanded="false" />
                 <element signature="n#EditText#0;n#LinearLayout#0;n#!!top" expanded="false" />
                 <element signature="n#TextView#1;n#LinearLayout#0;n#!!top" expanded="false" />
@@ -96,21 +94,36 @@
               </folding>
             </state>
           </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="CrimeListFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+              <caret line="130" column="58" selection-start-line="130" selection-start-column="58" selection-end-line="130" selection-end-column="58" />
               <folding>
                 <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
-                <element signature="e#2744#2900#0" expanded="true" />
+                <element signature="method#onCreateView#0;class#CrimeListFragment#0" expanded="true" />
                 <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="true" />
                 <element signature="method#onResume#0;class#CrimeListFragment#0" expanded="true" />
-                <element signature="method#onCreateOptionsMenu#0;class#CrimeListFragment#0" expanded="true" />
                 <element signature="method#openNewCrimeFragment#0;class#CrimeListFragment#0" expanded="true" />
                 <element signature="method#onOptionsItemSelected#0;class#CrimeListFragment#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_crime_list.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/fragment_crime_list.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35532996">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding>
+                <element signature="n#item#1;n#menu#0;n#!!top" expanded="true" />
+                <element signature="e#478#501#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,16 +137,6 @@
               <folding>
                 <element signature="method#onCreateView#0;class#CrimeFragment#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ids.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Android SDK/platforms/android-22/data/res/values/ids.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1424,9 +1427,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/details/CrimePagerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/details/dialog/DatePickerFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/fragment_crime_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu-v11/fragment_crime_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_crime_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListActivity.java" />
@@ -1434,6 +1435,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/model/Crime.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/model/CrimeLab.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/CriminalIntentJSONSerializer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu-v11/fragment_crime_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/fragment_crime_list.xml" />
       </list>
     </option>
   </component>
@@ -1510,6 +1513,28 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriminalIntent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriminalIntent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CriminalIntent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1531,10 +1556,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1544,210 +1565,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriminalIntent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fragment_crime_list.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriminalIntent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriminalIntent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriminalIntent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="criminalintent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriminalIntent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="criminalintent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriminalIntent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="criminalintent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriminalIntent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="criminalintent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriminalIntent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="criminalintent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="details" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriminalIntent" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriminalIntent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriminalIntent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CriminalIntent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1959,14 +1776,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
-    <editor active="false" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="914" y="510" width="326" height="242" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.49394855" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39808917" sideWeight="0.6920635" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3901274" sideWeight="0.48333332" order="0" side_tool="true" content_ui="tabs" />
@@ -1982,13 +1800,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21904762" sideWeight="0.49127182" order="0" side_tool="false" content_ui="combo" x="832" y="63" width="297" height="401" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.41428572" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3280255" sideWeight="0.41428572" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.4969743" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2035,6 +1852,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -2056,15 +1878,149 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crime_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="n#Button#0;n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#ListView#0;n#LinearLayout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/CriminalIntentJSONSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/model/Crime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+          <folding>
+            <element signature="method#Crime#0;class#Crime#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="method#toJSON#0;class#Crime#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crime.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
+          <folding>
+            <element signature="n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#TextView#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#EditText#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#TextView#1;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#CheckBox#0;n#LinearLayout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+          <folding>
+            <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#onCreateView#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#onResume#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#openNewCrimeFragment#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#onOptionsItemSelected#0;class#CrimeListFragment#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/details/CrimeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="146" column="6" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
+          <folding>
+            <element signature="method#onCreateView#0;class#CrimeFragment#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Android SDK/platforms/android-22/data/res/values/ids.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/model/CrimeLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="method#get#0;class#CrimeLab#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="method#getCrime#0;class#CrimeLab#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="method#saveCrimes#0;class#CrimeLab#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crime_list.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
-            <element signature="n#Button#0;n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="true" />
-            <element signature="n#ListView#0;n#LinearLayout#0;n#!!top" expanded="true" />
+            <element signature="n#Button#0;n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#ListView#0;n#LinearLayout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/CriminalIntentJSONSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/model/Crime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+          <folding>
+            <element signature="method#Crime#0;class#Crime#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="method#toJSON#0;class#Crime#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2077,6 +2033,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
           <folding>
+            <element signature="n#LinearLayout#0;n#!!top" expanded="false" />
             <element signature="n#TextView#0;n#LinearLayout#0;n#!!top" expanded="false" />
             <element signature="n#EditText#0;n#LinearLayout#0;n#!!top" expanded="false" />
             <element signature="n#TextView#1;n#LinearLayout#0;n#!!top" expanded="false" />
@@ -2092,10 +2049,101 @@
           <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
           <folding>
             <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="e#2744#2900#0" expanded="true" />
+            <element signature="method#onCreateView#0;class#CrimeListFragment#0" expanded="true" />
             <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="true" />
             <element signature="method#onResume#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onCreateOptionsMenu#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#openNewCrimeFragment#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#onOptionsItemSelected#0;class#CrimeListFragment#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/details/CrimeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="146" column="6" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
+          <folding>
+            <element signature="method#onCreateView#0;class#CrimeFragment#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Android SDK/platforms/android-22/data/res/values/ids.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/model/CrimeLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="method#get#0;class#CrimeLab#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="method#getCrime#0;class#CrimeLab#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="method#saveCrimes#0;class#CrimeLab#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crime_list.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+          <folding>
+            <element signature="n#Button#0;n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#ListView#0;n#LinearLayout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crime.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
+          <folding>
+            <element signature="n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#TextView#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#EditText#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#TextView#1;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#Button#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#CheckBox#0;n#LinearLayout#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+          <folding>
+            <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#onCreateView#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#onResume#0;class#CrimeListFragment#0" expanded="true" />
             <element signature="method#openNewCrimeFragment#0;class#CrimeListFragment#0" expanded="true" />
             <element signature="method#onOptionsItemSelected#0;class#CrimeListFragment#0" expanded="true" />
           </folding>
@@ -2135,18 +2183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#onCreate#0;class#CrimePagerActivity#0" expanded="false" />
-            <element signature="class#998:1406" expanded="false" />
-            <element signature="e#1099#1100#0" expanded="false" />
-            <element signature="e#1152#1153#0" expanded="false" />
-            <element signature="method#getItem#0;class#998:1406" expanded="false" />
-            <element signature="class#1855:2420" expanded="false" />
-            <element signature="method#onPageScrolled#0;class#1855:2420" expanded="false" />
-            <element signature="method#onPageSelected#0;class#1855:2420" expanded="false" />
-            <element signature="method#onPageScrollStateChanged#0;class#1855:2420" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2154,16 +2190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#newInstance#0;class#DatePickerFragment#0" expanded="false" />
-            <element signature="method#onCreateDialog#0;class#DatePickerFragment#0" expanded="false" />
-            <element signature="e#1644#2141#0" expanded="false" />
-            <element signature="e#2140#2141#0" expanded="false" />
-            <element signature="e#2209#2235#0" expanded="false" />
-            <element signature="e#2276#2478#0" expanded="false" />
-            <element signature="e#2477#2478#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2192,35 +2218,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/fragment_crime_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#335#354#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu-v11/fragment_crime_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="n#item#1;n#menu#0;n#!!top" expanded="false" />
-            <element signature="e#478#501#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Android SDK/sources/android-22/android/app/Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1246" column="16" selection-start-line="1246" selection-start-column="16" selection-end-line="1246" selection-end-column="16" />
-          <folding>
-            <element signature="e#48865#48866#0" expanded="false" />
-            <element signature="e#48895#48896#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2274,6 +2275,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="72" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
           <folding>
+            <element signature="n#LinearLayout#0;n#!!top" expanded="false" />
             <element signature="n#TextView#0;n#LinearLayout#0;n#!!top" expanded="false" />
             <element signature="n#EditText#0;n#LinearLayout#0;n#!!top" expanded="false" />
             <element signature="n#TextView#1;n#LinearLayout#0;n#!!top" expanded="false" />
@@ -2288,11 +2290,11 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8275862">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
-            <element signature="n#Button#0;n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="true" />
-            <element signature="n#ListView#0;n#LinearLayout#0;n#!!top" expanded="true" />
+            <element signature="n#Button#0;n#LinearLayout#0;n#LinearLayout#0;n#!!top" expanded="false" />
+            <element signature="n#ListView#0;n#LinearLayout#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2304,22 +2306,6 @@
           <folding>
             <element signature="e#543#544#0" expanded="true" />
             <element signature="e#589#590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-          <folding>
-            <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="e#2744#2900#0" expanded="true" />
-            <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onResume#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onCreateOptionsMenu#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#openNewCrimeFragment#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onOptionsItemSelected#0;class#CrimeListFragment#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2365,9 +2351,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/CriminalIntentJSONSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8629442">
+        <state vertical-scroll-proportion="0.0">
           <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="130" column="58" selection-start-line="130" selection-start-column="58" selection-end-line="130" selection-end-column="58" />
+          <folding>
+            <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#onCreateView#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#onResume#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#openNewCrimeFragment#0;class#CrimeListFragment#0" expanded="true" />
+            <element signature="method#onOptionsItemSelected#0;class#CrimeListFragment#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/fragment_crime_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35532996">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="n#item#1;n#menu#0;n#!!top" expanded="true" />
+            <element signature="e#478#501#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
