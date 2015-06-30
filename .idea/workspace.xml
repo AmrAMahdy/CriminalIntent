@@ -41,18 +41,35 @@
       <file leaf-file-name="CrimeListFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8873239">
-              <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7986577">
+              <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Android SDK/sources/android-22/android/app/Fragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1619" column="19" selection-start-line="1619" selection-start-column="19" selection-end-line="1619" selection-end-column="19" />
               <folding>
-                <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
-                <element signature="method#onCreateView#0;class#CrimeListFragment#0" expanded="true" />
-                <element signature="e#2014#2550#0" expanded="true" />
-                <element signature="e#2549#2550#0" expanded="true" />
-                <element signature="e#2603#2895#0" expanded="true" />
-                <element signature="e#2894#2895#0" expanded="true" />
-                <element signature="method#onCreateOptionsMenu#0;class#CrimeListFragment#0" expanded="true" />
-                <element signature="method#onOptionsItemSelected#0;class#CrimeListFragment#0" expanded="true" />
-                <element signature="method#onContextItemSelected#0;class#CrimeListFragment#0" expanded="true" />
+                <element signature="method#onCreateOptionsMenu#0;class#Fragment#0" expanded="true" />
+                <element signature="e#63386#63387#0" expanded="true" />
+                <element signature="e#63414#63415#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="selector.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/selector.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding>
+                <element signature="n#selector#0;n#!!top" expanded="true" />
+                <element signature="n#item#0;n#selector#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1337,6 +1354,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/fragment_crime_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/crime_list_item_context.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/model/CrimeLab.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/selector.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java" />
       </list>
     </option>
@@ -1345,9 +1363,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
+    <option name="x" value="55" />
     <option name="y" value="-8" />
-    <option name="width" value="1320" />
+    <option name="width" value="1319" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -1472,7 +1490,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
+              <option name="myItemId" value="drawable" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1797,7 +1815,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="0" />
+    <frame x="55" y="-8" width="1319" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="914" y="510" width="326" height="242" />
@@ -1809,19 +1827,19 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39808917" sideWeight="0.6920635" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3901274" sideWeight="0.48333332" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21904762" sideWeight="0.5195823" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2192216" sideWeight="0.5182292" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.49092284" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33444816" sideWeight="0.54236007" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25416037" sideWeight="0.5087282" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29617834" sideWeight="0.44285715" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3901274" sideWeight="0.51666665" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2192216" sideWeight="0.5182292" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26910827" sideWeight="0.44285715" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38853502" sideWeight="0.51666665" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21904762" sideWeight="0.48041776" order="0" side_tool="false" content_ui="combo" x="832" y="63" width="297" height="401" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.41428572" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2192216" sideWeight="0.48177084" order="0" side_tool="false" content_ui="combo" x="832" y="63" width="297" height="401" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3598726" sideWeight="0.41428572" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.4969743" order="14" side_tool="false" content_ui="tabs" />
@@ -1954,17 +1972,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-          <folding>
-            <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onCreateView#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="e#2014#2550#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
-            <element signature="e#2603#2895#0" expanded="true" />
-            <element signature="e#2894#2895#0" expanded="true" />
-            <element signature="method#onCreateOptionsMenu#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onOptionsItemSelected#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onContextItemSelected#0;class#CrimeListFragment#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2090,17 +2098,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-          <folding>
-            <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onCreateView#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="e#2014#2550#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
-            <element signature="e#2603#2895#0" expanded="true" />
-            <element signature="e#2894#2895#0" expanded="true" />
-            <element signature="method#onCreateOptionsMenu#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onOptionsItemSelected#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onContextItemSelected#0;class#CrimeListFragment#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2194,17 +2192,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-          <folding>
-            <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onCreateView#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="e#2014#2550#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
-            <element signature="e#2603#2895#0" expanded="true" />
-            <element signature="e#2894#2895#0" expanded="true" />
-            <element signature="method#onCreateOptionsMenu#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onOptionsItemSelected#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onContextItemSelected#0;class#CrimeListFragment#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2430,18 +2418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Android SDK/sources/android-22/android/app/Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5492958">
-          <caret line="1478" column="22" selection-start-line="1478" selection-start-column="22" selection-end-line="1478" selection-end-column="22" />
-          <folding>
-            <element signature="e#57608#57609#0" expanded="true" />
-            <element signature="e#57638#57639#0" expanded="true" />
-            <element signature="method#onCreateOptionsMenu#0;class#Fragment#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/CriminalIntentJSONSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2461,21 +2437,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="n#selector#0;n#!!top" expanded="true" />
+            <element signature="n#item#0;n#selector#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Android SDK/sources/android-22/android/app/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1619" column="19" selection-start-line="1619" selection-start-column="19" selection-end-line="1619" selection-end-column="19" />
+          <folding>
+            <element signature="method#onCreateOptionsMenu#0;class#Fragment#0" expanded="true" />
+            <element signature="e#63386#63387#0" expanded="true" />
+            <element signature="e#63414#63415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8873239">
-          <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-          <folding>
-            <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onCreateView#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="e#2014#2550#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
-            <element signature="e#2603#2895#0" expanded="true" />
-            <element signature="e#2894#2895#0" expanded="true" />
-            <element signature="method#onCreateOptionsMenu#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onOptionsItemSelected#0;class#CrimeListFragment#0" expanded="true" />
-            <element signature="method#onContextItemSelected#0;class#CrimeListFragment#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.7986577">
+          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

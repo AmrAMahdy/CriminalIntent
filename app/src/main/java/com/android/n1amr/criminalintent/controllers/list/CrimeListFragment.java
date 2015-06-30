@@ -4,6 +4,7 @@ import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.ActionMode;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -11,6 +12,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -47,7 +49,7 @@ public class CrimeListFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_crime_list, container, false);
 
         mListView = (ListView) view.findViewById(R.id.listView);
@@ -68,6 +70,7 @@ public class CrimeListFragment extends Fragment {
             }
         });
 
+        //Old style
         mListView.setOnCreateContextMenuListener(new View.OnCreateContextMenuListener() {
             @Override
             public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
@@ -76,6 +79,52 @@ public class CrimeListFragment extends Fragment {
 
         });
 
+        mListView.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE_MODAL);
+        mListView.setMultiChoiceModeListener(new AbsListView.MultiChoiceModeListener() {
+            @Override
+            public void onItemCheckedStateChanged(ActionMode mode, int position, long id, boolean checked) {
+                //((Crime) (mListView.getAdapter().getItem(position))).setSolved(checked);
+                CrimeAdapter crimeAdapter = (CrimeAdapter) mListView.getAdapter();
+                crimeAdapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public boolean onCreateActionMode(ActionMode mode, Menu menu) {
+
+                MenuInflater menuInflater = mode.getMenuInflater();
+                menuInflater.inflate(R.menu.crime_list_item_context, menu);
+                return true;
+            }
+
+            @Override
+            public boolean onPrepareActionMode(ActionMode mode, Menu menu) {
+                return false;
+            }
+
+            @Override
+            public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.menu_item_delete_crime:
+                        CrimeAdapter crimeAdapter = ((CrimeAdapter) mListView.getAdapter());
+                        CrimeLab crimeLab = CrimeLab.get(getActivity());
+                        for (int i = crimeAdapter.getCount() - 1; i >= 0; i--) {
+                            if (mListView.isItemChecked(i)) {
+                                crimeLab.deleteCrime(crimeAdapter.getItem(i));
+                            }
+                        }
+                        mode.finish();
+                        crimeAdapter.notifyDataSetChanged();
+                        return true;
+                    default:
+                        return false;
+                }
+            }
+
+            @Override
+            public void onDestroyActionMode(ActionMode mode) {
+
+            }
+        });
 
         //Empty View
         mListView.setEmptyView(view.findViewById(R.id.emptyView));
@@ -175,6 +224,8 @@ public class CrimeListFragment extends Fragment {
         }
     }
 
+
+    //Old style
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
