@@ -18,4 +18,6 @@
     <string name="delete_crime">Delete</string>
     <string name="no_saved_crimes">No saved crimes.</string>
     <string name="add_samples">Add 15 samples</string>
+    <string name="take">Take!</string>
+    <string name="add_picture">Add Picture!</string>
 </resources>
