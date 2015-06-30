@@ -41,7 +41,7 @@
       <file leaf-file-name="CrimeListFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.413793">
+            <state vertical-scroll-proportion="-2.724138">
               <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
               <folding />
             </state>
@@ -75,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="background_activated.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="background_activated.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/background_activated.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39325842">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
                 <element signature="n#selector#0;n#!!top" expanded="true" />
@@ -96,6 +96,34 @@
               <folding>
                 <element signature="method#get#0;class#CrimeLab#0" expanded="true" />
                 <element signature="method#getCrime#0;class#CrimeLab#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrimeFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/details/CrimeFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8876405">
+              <caret line="142" column="39" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
+              <folding>
+                <element signature="method#onCreate#0;class#CrimeFragment#0" expanded="true" />
+                <element signature="method#onActivityResult#0;class#CrimeFragment#0" expanded="true" />
+                <element signature="method#onPause#0;class#CrimeFragment#0" expanded="true" />
+                <element signature="method#onCreateOptionsMenu#0;class#CrimeFragment#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding>
+                <element signature="n#activity#0;n#application#0;n#manifest#0;n#!!top" expanded="true" />
+                <element signature="n#meta-data#0;n#activity#0;n#application#0;n#manifest#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1360,7 +1388,6 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_crime_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/details/CrimeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/model/Crime.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/CriminalIntentJSONSerializer.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu-v11/fragment_crime_list.xml" />
@@ -1371,6 +1398,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item_crime.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/background_activated.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/details/CrimeFragment.java" />
       </list>
     </option>
   </component>
@@ -1625,7 +1653,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
+              <option name="myItemId" value="details" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1800,9 +1828,9 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="Lollipop_API_22" />
+      <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
@@ -2016,18 +2044,18 @@
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="method#newInstance#0;class#CrimeFragment#0" expanded="false" />
-            <element signature="method#onCreate#0;class#CrimeFragment#0" expanded="false" />
-            <element signature="class#2318:2867" expanded="false" />
-            <element signature="method#onTextChanged#0;class#2318:2867" expanded="false" />
-            <element signature="method#beforeTextChanged#0;class#2318:2867" expanded="false" />
-            <element signature="method#afterTextChanged#0;class#2318:2867" expanded="false" />
-            <element signature="e#2977#3402#0" expanded="false" />
-            <element signature="e#3401#3402#0" expanded="false" />
-            <element signature="e#3611#3837#0" expanded="false" />
-            <element signature="e#3836#3837#0" expanded="false" />
+            <element signature="method#onCreate#0;class#CrimeFragment#0" expanded="true" />
+            <element signature="class#2378:2927" expanded="false" />
+            <element signature="method#onTextChanged#0;class#2378:2927" expanded="false" />
+            <element signature="method#beforeTextChanged#0;class#2378:2927" expanded="false" />
+            <element signature="method#afterTextChanged#0;class#2378:2927" expanded="false" />
+            <element signature="e#3037#3462#0" expanded="false" />
+            <element signature="e#3461#3462#0" expanded="false" />
+            <element signature="e#3671#3897#0" expanded="false" />
+            <element signature="e#3896#3897#0" expanded="false" />
             <element signature="method#updateDate#0;class#CrimeFragment#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#CrimeFragment#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#CrimeFragment#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#CrimeFragment#0" expanded="true" />
+            <element signature="method#onOptionsItemSelected#0;class#CrimeFragment#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2142,18 +2170,18 @@
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="method#newInstance#0;class#CrimeFragment#0" expanded="false" />
-            <element signature="method#onCreate#0;class#CrimeFragment#0" expanded="false" />
-            <element signature="class#2318:2867" expanded="false" />
-            <element signature="method#onTextChanged#0;class#2318:2867" expanded="false" />
-            <element signature="method#beforeTextChanged#0;class#2318:2867" expanded="false" />
-            <element signature="method#afterTextChanged#0;class#2318:2867" expanded="false" />
-            <element signature="e#2977#3402#0" expanded="false" />
-            <element signature="e#3401#3402#0" expanded="false" />
-            <element signature="e#3611#3837#0" expanded="false" />
-            <element signature="e#3836#3837#0" expanded="false" />
+            <element signature="method#onCreate#0;class#CrimeFragment#0" expanded="true" />
+            <element signature="class#2378:2927" expanded="false" />
+            <element signature="method#onTextChanged#0;class#2378:2927" expanded="false" />
+            <element signature="method#beforeTextChanged#0;class#2378:2927" expanded="false" />
+            <element signature="method#afterTextChanged#0;class#2378:2927" expanded="false" />
+            <element signature="e#3037#3462#0" expanded="false" />
+            <element signature="e#3461#3462#0" expanded="false" />
+            <element signature="e#3671#3897#0" expanded="false" />
+            <element signature="e#3896#3897#0" expanded="false" />
             <element signature="method#updateDate#0;class#CrimeFragment#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#CrimeFragment#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#CrimeFragment#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#CrimeFragment#0" expanded="true" />
+            <element signature="method#onOptionsItemSelected#0;class#CrimeFragment#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2280,23 +2308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="n#uses-sdk#0;n#manifest#0;n#!!top" expanded="false" />
-            <element signature="e#330#348#0" expanded="false" />
-            <element signature="n#activity#0;n#application#0;n#manifest#0;n#!!top" expanded="false" />
-            <element signature="e#502#520#0" expanded="false" />
-            <element signature="n#meta-data#0;n#activity#0;n#application#0;n#manifest#0;n#!!top" expanded="false" />
-            <element signature="n#activity#1;n#application#0;n#manifest#0;n#!!top" expanded="false" />
-            <element signature="e#823#845#0" expanded="false" />
-            <element signature="n#intent-filter#0;n#activity#1;n#application#0;n#manifest#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Android SDK/sources/android-22/android/app/ListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2364,29 +2375,6 @@
           <folding>
             <element signature="e#543#544#0" expanded="true" />
             <element signature="e#589#590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/details/CrimeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51267606">
-          <caret line="146" column="6" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#newInstance#0;class#CrimeFragment#0" expanded="false" />
-            <element signature="method#onCreate#0;class#CrimeFragment#0" expanded="false" />
-            <element signature="class#2318:2867" expanded="false" />
-            <element signature="method#onTextChanged#0;class#2318:2867" expanded="false" />
-            <element signature="method#beforeTextChanged#0;class#2318:2867" expanded="false" />
-            <element signature="method#afterTextChanged#0;class#2318:2867" expanded="false" />
-            <element signature="e#2977#3402#0" expanded="false" />
-            <element signature="e#3401#3402#0" expanded="false" />
-            <element signature="e#3611#3837#0" expanded="false" />
-            <element signature="e#3836#3837#0" expanded="false" />
-            <element signature="method#updateDate#0;class#CrimeFragment#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#CrimeFragment#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#CrimeFragment#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2482,14 +2470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.413793">
-          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_crime.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.7586207">
@@ -2503,11 +2483,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/background_activated.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39325842">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
             <element signature="n#selector#0;n#!!top" expanded="true" />
             <element signature="n#item#0;n#selector#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/list/CrimeListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.724138">
+          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="n#activity#0;n#application#0;n#manifest#0;n#!!top" expanded="true" />
+            <element signature="n#meta-data#0;n#activity#0;n#application#0;n#manifest#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/n1amr/criminalintent/controllers/details/CrimeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8876405">
+          <caret line="142" column="39" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
+          <folding>
+            <element signature="method#onCreate#0;class#CrimeFragment#0" expanded="true" />
+            <element signature="method#onActivityResult#0;class#CrimeFragment#0" expanded="true" />
+            <element signature="method#onPause#0;class#CrimeFragment#0" expanded="true" />
+            <element signature="method#onCreateOptionsMenu#0;class#CrimeFragment#0" expanded="true" />
           </folding>
         </state>
       </provider>
